@@ -37,6 +37,11 @@ jobs:
           VITE_OMDB_API_KEY: ${{ secrets.VITE_OMDB_API_KEY }}
         run: npm run build
 
+      - name: Add SPA Fallback Files
+        run: |
+          cp dist/index.html dist/404.html
+          touch dist/.nojekyll
+
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3
         with:
