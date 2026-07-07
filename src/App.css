@@ -245,12 +245,23 @@
   background: #ffffff;
   color: #101116;
   padding: 0.72rem 1.6rem;
+  transition: background 0.2s ease, opacity 0.2s ease;
+}
+
+.primary-btn:hover {
+  background: rgba(255, 255, 255, 0.85);
 }
 
 .secondary-btn {
   background: rgba(255, 255, 255, 0.2);
   color: var(--text-main);
   padding: 0.72rem 1.3rem;
+  transition: background 0.2s ease;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+.secondary-btn:hover {
+  background: rgba(255, 255, 255, 0.32);
 }
 
 .rail-section {
@@ -280,6 +291,14 @@
   transform: translateY(10px);
   opacity: 0;
   animation: riseIn 500ms ease-out both;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  cursor: pointer;
+}
+
+.poster-card:hover {
+  transform: scale(1.06);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.7);
+  z-index: 1;
 }
 
 .poster-card:nth-child(2) {
@@ -316,6 +335,14 @@
   inset: auto 0 0;
   padding: 0.9rem 0.7rem;
   background: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.86));
+  opacity: 0;
+  transform: translateY(6px);
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+.poster-card:hover .poster-overlay {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .poster-overlay h3 {

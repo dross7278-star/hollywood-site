@@ -66,6 +66,9 @@ function SpotlightCarousel({ slides, kicker, onToggleMyList, isInMyList }) {
         <h1>{activeSlide.title}</h1>
         <p className="description">{activeSlide.overview}</p>
         <div className="hero-actions">
+          <button type="button" className="primary-btn">
+            ▶ Play
+          </button>
           <button
             type="button"
             className="secondary-btn"
@@ -73,7 +76,7 @@ function SpotlightCarousel({ slides, kicker, onToggleMyList, isInMyList }) {
           >
             {isInMyList(activeSlide.id, activeSlide.mediaType)
               ? 'Remove from My List'
-              : 'Add to My List'}
+              : '+ My List'}
           </button>
         </div>
         <div className="hero-dots" aria-hidden="true">
