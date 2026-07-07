@@ -1,4 +1,4 @@
-# Netflix Clone (React)
+#Holywood site (React)
 
 A Netflix-inspired React app built with Vite.
 
