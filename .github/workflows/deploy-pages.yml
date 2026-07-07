@@ -36,7 +36,7 @@ jobs:
 
       - name: Build
         env:
-          VITE_BASE_PATH: /netflix-clone/
+          VITE_BASE_PATH: /hollywood-site/
           VITE_OMDB_API_KEY: ${{ secrets.VITE_OMDB_API_KEY }}
         run: npm run build
 
