@@ -263,9 +263,9 @@ async function enrichSearchResults(searchItems, forcedMediaType, count) {
 export async function fetchHomeData() {
   try {
     const [movieRawA, movieRawB, tvRawA, tvRawB, hero] = await Promise.all([
-      fetchSearch('Netflix', 'movie'),
+      fetchSearch('Popular', 'movie'),
       fetchSearch('Top', 'movie'),
-      fetchSearch('Netflix', 'series'),
+      fetchSearch('Popular', 'series'),
       fetchSearch('Top', 'series'),
       fetchByImdbId('tt3896198', 'movie'),
     ])

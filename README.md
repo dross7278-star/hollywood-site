@@ -1,6 +1,6 @@
-#Holywood site (React)
+# Hollywood Site (React)
 
-A Netflix-inspired React app built with Vite.
+A Hollywood-inspired React app built with Vite.
 
 ## Completed Features
 
@@ -45,7 +45,7 @@ A Netflix-inspired React app built with Vite.
 ## GitHub Website (Pages)
 
 - This repository is configured to deploy automatically to GitHub Pages from the main branch.
-- Website URL after the workflow runs: https://dross7278-star.github.io/netflix-clone/
+- Website URL after the workflow runs: https://dross7278-star.github.io/hollywood-site/
 
 ### One-time setup in GitHub
 

@@ -12,7 +12,7 @@ function LoginPage() {
     <main className="login-page">
       <section className="login-panel">
         <h1>Who is watching?</h1>
-        <p>Select a profile to enter your Netflix clone.</p>
+        <p>Select a profile to enter Hollywood Site.</p>
 
         <div className="profile-grid">
           {profiles.map((profile) => (

@@ -8,7 +8,7 @@ function AppLayout() {
   return (
     <div className="app-shell">
       <header className="top-nav">
-        <div className="logo">NETFLIX</div>
+        <div className="logo">HOLLYWOOD SITE</div>
 
         <nav className="menu-links" aria-label="Main menu">
           <NavLink to="/">Home</NavLink>
